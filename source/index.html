@@ -1,0 +1,51 @@
+﻿<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Bouncy Wheel</title>
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+    <div class="container">
+
+      <canvas id="canvas">
+        Aww, your browser doesn't support HTML5!
+      </canvas>
+
+      <div id="mainMenu">
+        <h1>bouncy wheel</h1>
+        <h3>an Ooahh,</h3>
+        <h3>game demo</h3>
+        <h1>1 life remaining</h1>
+
+        <p class="info">
+          use
+          <span class="key left">←</span>
+          <span class="key right">→</span>
+          to move and space to start...
+        </p>
+        <a class="button" href="javascript:init()">Play</a>
+      </div>
+
+      <div id="gameOverMenu">
+        <h1>Game Over!</h1>
+        <h3 id="go_score">you scored 0 points</h3>
+        <h3>Thanks For Playing</h3>
+        <h1>More Lives?</h1>
+        <h3>Get the source @ooahh.com</h3>
+        <h3>Then Hack It!</h3>
+      </div>
+
+      <!-- Preloading image ;) -->
+      <img id="sprite" src="assets.png"/>
+
+      <div id="scoreBoard">
+        <p id="score">0</p>
+      </div>
+
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

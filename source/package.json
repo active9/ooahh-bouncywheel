@@ -1,0 +1,12 @@
+{
+  "name": "Ooahh",
+  "main": "app://ooahh/index.html",
+  "window": {
+      "toolbar": false,
+      "resizable": false,
+      "frame": true,
+	 "width": 422,
+	 "height": 552
+  },
+  "version": "1.0"
+}
