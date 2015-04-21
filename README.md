@@ -11,7 +11,7 @@ Download the build archive for your Operating System & 32 or 64bit varient.
 On windows simply run from within the build folder within the zip file:
 ```bash
 Ooahh.exe
-```bash
+```
 
 If you are on linux or mac simply launch the appropriate binary for your system.
 
